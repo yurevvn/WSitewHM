@@ -35,7 +35,7 @@ a{
     100% {
         transform: scale(1);
         color: #007bff;
-    }
+    } /*Добавим анимацию текста при наведении курсором на ссылку*/
 }
 
 a {
@@ -48,10 +48,6 @@ a:hover {
 
 a {
     text-decoration: none; /* Уберем точки справа от ссылок (от ненумерованных списков)*/
-}
-
-a:hover {
-    animation: textAnimation 0.6s forwards; 
 }
 
 @keyframes rainbow  /*добавим ргб подсветку к заголовку*/ {
