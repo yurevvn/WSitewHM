@@ -42,7 +42,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+li:hover {
     animation: textAnimation 0.6s forwards; /* Анимация при наведении */
 }
 
