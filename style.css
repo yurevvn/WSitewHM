@@ -1,28 +1,29 @@
 body{ 
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/232/230/447/1920x1080-px-bit-pixel-art-pokemon-wallpaper-preview.jpg); 
-    background-repeat: no-repeat;  
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/232/230/447/1920x1080-px-bit-pixel-art-pokemon-wallpaper-preview.jpg); /*Добавляем фон сайту*/
+    background-repeat: no-repeat;  /*Чтобы фон не повторялся*/
+    background-size: cover; /*Растягиваем изображение на весь фон сайта*/
 }
 
 h1{
-    color: rgb(49, 255, 22);
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(49, 255, 22); /* Меняем цвет заголовка*/
+    text-align: center; /*Перетягиваем заголовок к центру*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Меняем шрифт заголовка*/
 }
 li {
-    list-style-type: none; 
+    list-style-type: none; /* Убираем нижнее подчеркивание у ссылок*/
     padding: 0; 
     margin: 0; 
 }
 
 a{
     text-decoration: none;   list-style-type: none;
-    color: rgb(0, 162, 255);
-    font-size: larger;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold; 
-}
+    color: rgb(0, 162, 255); /* Меняем цвета ссылок*/
+    font-size: larger; /*Делаем ссылки пожирнее*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*Сделаем шрифт ссылок*/
+    font-width: bold; /*сделаем текст ссылок пошире*/
+}*
  
-@keyframes textAnimation {
+@keyframes textAnimation  {
     0% {
         transform: scale(1);
         color: #007bff;
@@ -34,18 +35,18 @@ a{
     100% {
         transform: scale(1);
         color: #007bff;
-    }
+    } /*Добавим анимацию при наведении курсора на ссылку*/
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none; /* Уберем точки справа от ссылок (от ненумерованных списков)*/
 }
 
 a:hover {
     animation: textAnimation 0.6s forwards; 
 }
 
-@keyframes rainbow {
+@keyframes rainbow  /*добавим ргб подсветку к заголовку*/ {
     0% { color: rgb(14, 124, 0); }
     14% { color: rgb(0, 250, 21); }
     28% { color: rgb(0, 255, 242); }
@@ -53,9 +54,9 @@ a:hover {
     57% { color: blue; }
     71% { color: indigo; }
     85% { color: rgb(0, 250, 54); }
-    100% { color: rgb(14, 124, 0); }
-}
+    100% { color: rgb(14, 124, 0); } /* добавим ргб подсветку к заголовку*/
+} 
 
 .rainbow-text {
-    animation: rainbow 3s linear infinite; 
+    animation: rainbow 3s linear infinite; /*Поставим длительность анимации */
 }
