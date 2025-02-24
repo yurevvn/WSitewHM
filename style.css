@@ -5,6 +5,7 @@ body{
 }
 
 h1{
+    font-size: 32px; /* Увеличивает размер заголовка h1 */
     color: rgb(49, 255, 22); /* Меняем цвет заголовка*/
     text-align: center; /*Перетягиваем заголовок к центру*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Меняем шрифт заголовка*/
@@ -18,7 +19,7 @@ li {
 a{
     text-decoration: none;   list-style-type: none;
     color: rgb(0, 162, 255); /* Меняем цвета ссылок*/
-    font-size: 32px; /*Делаем ссылки пожирнее*/
+    font-size: larger; /*Делаем ссылки пожирнее*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*Сделаем шрифт ссылок*/
     font-width: bold; /*сделаем текст ссылок пошире*/
 }
