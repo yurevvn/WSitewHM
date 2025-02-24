@@ -19,7 +19,7 @@ li {
 a{
     text-decoration: none;   list-style-type: none;
     color: rgb(0, 162, 255); /* Меняем цвета ссылок*/
-    font-size: 21px; /*Делаем ссылки пожирнее*/
+    font-size: 23px; /*Делаем ссылки пожирнее*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*Сделаем шрифт ссылок*/
     font-width: bold; /*сделаем текст ссылок пошире*/
 }
