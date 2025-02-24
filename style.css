@@ -5,7 +5,7 @@ body{
 }
 
 h1{
-    font-size: 32px; /* Увеличивает размер заголовка h1 */
+    font-size: 64px; /* Увеличивает размер заголовка h1 */
     color: rgb(49, 255, 22); /* Меняем цвет заголовка*/
     text-align: center; /*Перетягиваем заголовок к центру*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Меняем шрифт заголовка*/
