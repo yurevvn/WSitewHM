@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Позиционирование, слои</title>
+    <link rel="stylesheet" href="style.css">
+    <a href="index.html">BACK</a>
+</head>
+<body>
+    <STYLE>
+.zad1{
+    position: absolute;
+    left: 50;
+    top: 50;
+    width: 100px;
+    height: 100px;
+}
+
+.image{
+        position: absolute;
+        left: 25; top: 20; width: 200px; height: 200px;
+        z-index: 0;
+        margin-top: 50px;
+}
+
+ .text1{
+position: absolute;
+left: 50; 
+top:100;
+z-index: 1; font-size: 30; COLOR: red;
+margin-top: 50px;
+}
+
+.image1{
+position: absolute ;
+left: 20;
+top: 20;
+WIDTH: 150px;
+HEIGHT: 150px;
+z-index: 0;
+margin-top: 270px;
+
+}
+.image2{
+    position: absolute; z-index: 0;height: 200px;
+}
+
+.image3{
+    position: absolute; z-index: 1;height: 150px;
+}
+
+.image4{
+    position: absolute; z-index: 2;height: 100px;
+    }
+
+.scr{
+    position: absolute;
+z-index: 0;
+width: 350px;
+height: 200px;
+}
+
+.scr1{
+position: absolute;
+z-index: 1;
+height: 160px;
+width: 280px;
+margin-left: 50px;
+padding-top: 20px;
+}
+
+.pozdng {
+ position: absolute;
+z-index: 2;
+color: rgb(255, 0, 0);
+font-size: 40px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+left: 800px;
+}
+
+.z6scr{ 
+z-index: 0;
+width: 500px;
+height: 170px;
+}
+
+.pozd{
+font-size: 70px;
+position: absolute;
+z-index: 1;
+color: red;
+left: 750px;
+margin-top: 30px;
+}
+
+.pozd1{
+font-size: 70px;
+position: absolute;
+z-index: 2;
+color: blue;
+margin-top: 45px;
+left: 760px;
+}
+
+.pozd2{
+font-size: 70px;
+position: absolute;
+z-index: 3;
+color: rgb(21, 99, 1);
+margin-top: 60px;
+left: 770px;
+}
+
+.scrleto{
+position: absolute;
+z-index: 1;
+width: 250px;
+height: 200px;
+margin-top: 50px;
+margin-left: 35px;
+border: 8px solid yellow; 
+}
+
+.scrshelk{
+position: absolute;
+z-index: 0;
+width: 450px;
+height: 300px;
+}
+
+.pozdd{
+    position: absolute;
+z-index: 2;
+font-size: 50px;
+color: rgb(0, 255, 255);
+left: 780px;
+}
+
+.pozddr{
+    position: absolute;
+z-index: 2;
+font-size: 50px;
+color: rgb(0, 253, 253);
+left: 980px;
+margin-top: 150px;
+}
+.fon {
+position: absolute;
+z-index: 0;
+width: 400px;
+height: 300px;
+}
+.kotspg{
+    position: absolute;
+    z-index: 1;
+width: 350px;
+height: 250px;
+margin-left: 20px;
+margin-top: 30px;
+border: 7px dashed rgb(255, 0, 0);
+}
+.vosp{
+    position: absolute;
+    z-index: 1;
+color: rgb(60, 255, 0);
+font-size: 25px;
+margin-top: -2px;
+left: 790px;
+}
+
+</STYLE>
+
+<center><h1>Задание 1</h1></center>
+<img src="https://i.pinimg.com/originals/19/37/5d/19375de712a3e9fac8e68fe82c89565a.png" alt="" class="zad1">
+
+<center><h1>Задание 2-4</h1></center>
+<img src="https://wallpapers.com/images/hd/cute-bunny-on-tree-stump-s8606tzr58787fbr.jpg" alt="" class="image">
+  <p CLASS=text1> Картинка </p>
+      <img src="https://i.pinimg.com/736x/8b/eb/ae/8bebaec13fcf823e44ad2e0902dbf042.jpg" alt="" class="image1">
+     <center> <div style="margin-top: 500px;margin-left: -300px;"><img src="https://wallup.net/wp-content/uploads/2019/09/720354-countryside-sky-landscape-clouds.jpg" alt="" class="image2">
+      <img src="https://avatars.mds.yandex.net/i?id=0218b312e40de7add3dd17c7660ca8ed_l-5231626-images-thumbs&n=13" alt="" class="image3">
+      <img src="https://pic.rutubelist.ru/user/98/2b/982b9948378e3efac998d0a5a491e8ef.jpg" alt="" class="image4"></div></center>
+
+    <center><h1 style="margin-top: 700px;">Задание 5</h1></center>
+    <div style=" width: 350px; height: 200px; border: 1px solid #000;margin-top: 150px;margin-left: 750px;" >
+        <img src="https://cdn.culture.ru/images/56d82c80-d43d-5432-ad3c-3cf9471dd763" class="scr">
+        <img src="https://islam.ru/sites/default/files/img/2017/veroeshenie/muharram_1.jpg" class="scr1">
+        <p class="pozdng"> С Новым<br> Годом!</p>
+    </div>
+
+    <center><h1>Задание 6</h1></center>
+    <center><div style="width: 500px; height: 170px; border: 1px solid #000;">
+        <img src="https://bogatyr.club/uploads/posts/2023-03/thumbs/1679446583_bogatyr-club-p-fon-rozovo-fioletovii-nezhnii-foni-vkontak-71.jpg" class="z6scr" alt="">
+        <i class="pozd">Поздравляю!</i>
+        <i class="pozd1">Поздравляю!</i>
+        <i class="pozd2">Поздравляю!</i></center>
+    </div>
+
+<center><h1>Задание 7</h1></center>
+<center><div style="width: 400px; height: 300px;margin-left: -350px;">
+    <img src="https://avatars.mds.yandex.net/i?id=e402bcac9ec727dad97b13c7d750aa99_l-5210027-images-thumbs&n=13" class="scrshelk">
+    <img src="https://avatars.mds.yandex.net/i?id=e8c178c699ac5712e6409ed76e69ac7e_l-11043615-images-thumbs&n=13" class="scrleto">
+    <h4 class="pozdd"><i>Поздравляю</i></h4>
+    <h4 class="pozddr"><i>с Днем<br> рождения!</i></h4>
+    </div></center>
+
+    <center><h1>Задание 8</h1></center>
+    <div style="width: 400px; height: 300px; border: 1px solid #000;margin-left: 750px;">
+        <img src="https://i.pinimg.com/originals/c7/83/b4/c783b46883ca45788897b3d1a2a8cc78.jpg" class="fon">
+        <img src="https://cdn.culture.ru/images/1290330d-4eb2-525f-9df3-5904530be52e" class="kotspg">
+        <p class="vosp"><b>Воспоминание о лете</b></p>
+    </div>
+</body>
+</html>
